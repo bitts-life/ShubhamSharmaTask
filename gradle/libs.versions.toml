@@ -16,6 +16,8 @@ lifecycleViewmodelKtx = "2.9.2"
 hiltVersion = "2.51.1"
 junitKtx = "1.3.0"
 
+mockwebserverVersion = "4.10.0"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -41,6 +43,8 @@ room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
 androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+#testing
+okhttp = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserverVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

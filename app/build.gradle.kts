@@ -62,7 +62,10 @@ dependencies {
     ksp(libs.room.compiler)
     implementation(libs.room.ktx)
 
+    // unit tests
     testImplementation(libs.junit)
+    testImplementation(libs.okhttp)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))

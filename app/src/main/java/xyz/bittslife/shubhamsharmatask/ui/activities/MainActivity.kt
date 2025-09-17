@@ -1,4 +1,4 @@
-package xyz.bittslife.shubhamsharmatask
+package xyz.bittslife.shubhamsharmatask.ui.activities
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
