@@ -66,6 +66,8 @@ dependencies {
     testImplementation(libs.junit)
     testImplementation(libs.okhttp)
     testImplementation(libs.io.mock)
+    testImplementation("org.mockito:mockito-core:5.2.0")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.2")
 
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
