@@ -45,6 +45,7 @@ room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVers
 androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
 #testing
 okhttp = { group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "mockwebserverVersion" }
+io-mock = { group = "io.mockk", name = "mockk", version = "1.14.5" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

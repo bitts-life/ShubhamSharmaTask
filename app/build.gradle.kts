@@ -65,6 +65,7 @@ dependencies {
     // unit tests
     testImplementation(libs.junit)
     testImplementation(libs.okhttp)
+    testImplementation(libs.io.mock)
 
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
